@@ -1,1 +1,1 @@
-#Implementing Spring Security 6 with Spring Boot 3
+Implementing Spring Security 6 with Spring Boot 3
