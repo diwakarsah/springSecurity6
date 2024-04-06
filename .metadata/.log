@@ -1,0 +1,185 @@
+!SESSION 2023-12-13 14:52:23.580 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/diwakar/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/diwakar/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2023-12-13 14:52:49.633
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-12-13 14:52:49.633
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2023-12-13 14:52:50.619
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-13 14:52:50.868
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: active developer path ("/Applications/Xcode.app/Contents/Developer") does not exist
+Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+See `man xcode-select` for more details.
+'
+
+!ENTRY org.eclipse.jface 2 0 2023-12-13 14:52:52.199
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-13 14:52:52.199
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6979e9b8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@771deee6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 0 2023-12-13 14:52:57.045
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-12-13 14:52:57.045
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-12-13 14:54:03.233
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-12-13 14:54:03.507
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-12-13 14:54:03.507
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE Software being installed: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE Software currently installed: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.507
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE Maven Integration for Eclipse 1.16.1.20200710-1008 (org.eclipse.m2e.core 1.16.1.20200710-1008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE M2E Maven Integration for Eclipse Core 2.4.1.20231119-0901 (org.eclipse.m2e.core 2.4.1.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.507
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE From: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.core [2.4.1.20231119-0901,2.4.1.20231119-0901]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.507
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE From: m2e connector for the mavenarchiver and pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE To: osgi.bundle; org.eclipse.m2e.core [1.0.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.507
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE From: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.507
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.sonatype.m2e.mavenarchiver [0.17.5.202002191804,0.17.5.202002191804]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-12-13 14:54:03.598
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-12-13 14:54:03.599
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE Software being installed: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE Software currently installed: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.599
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE Maven Integration for Eclipse 1.16.1.20200710-1008 (org.eclipse.m2e.core 1.16.1.20200710-1008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE M2E Maven Integration for Eclipse Core 2.4.1.20231119-0901 (org.eclipse.m2e.core 2.4.1.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.599
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE From: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.core [2.4.1.20231119-0901,2.4.1.20231119-0901]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.599
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE From: m2e connector for the mavenarchiver and pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE To: osgi.bundle; org.eclipse.m2e.core [1.0.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:03.599
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE From: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:03.599
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.sonatype.m2e.mavenarchiver [0.17.5.202002191804,0.17.5.202002191804]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-12-13 14:54:12.196
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-12-13 14:54:12.196
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE Software being installed: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE Software currently installed: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.196
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE Maven Integration for Eclipse 1.16.1.20200710-1008 (org.eclipse.m2e.core 1.16.1.20200710-1008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE M2E Maven Integration for Eclipse Core 2.4.1.20231119-0901 (org.eclipse.m2e.core 2.4.1.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.196
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE From: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.core [2.4.1.20231119-0901,2.4.1.20231119-0901]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.196
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE From: m2e connector for the mavenarchiver and pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE To: osgi.bundle; org.eclipse.m2e.core [1.0.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.196
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE From: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.196
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.sonatype.m2e.mavenarchiver [0.17.5.202002191804,0.17.5.202002191804]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-12-13 14:54:12.198
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-12-13 14:54:12.198
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.198
+!MESSAGE Software being installed: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.198
+!MESSAGE Software currently installed: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.198
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE Maven Integration for Eclipse 1.16.1.20200710-1008 (org.eclipse.m2e.core 1.16.1.20200710-1008)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE M2E Maven Integration for Eclipse Core 2.4.1.20231119-0901 (org.eclipse.m2e.core 2.4.1.20231119-0901)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.199
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE From: M2E - Maven Integration for Eclipse 2.4.200.20231119-0901 (org.eclipse.m2e.feature.feature.group 2.4.200.20231119-0901)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.m2e.core [2.4.1.20231119-0901,2.4.1.20231119-0901]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.199
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE From: m2e connector for the mavenarchiver and pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE To: osgi.bundle; org.eclipse.m2e.core [1.0.0,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-12-13 14:54:12.199
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE From: m2e connector for mavenarchiver pom properties 0.17.5.202002191804 (org.sonatype.m2e.mavenarchiver.feature.feature.group 0.17.5.202002191804)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-12-13 14:54:12.199
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.sonatype.m2e.mavenarchiver [0.17.5.202002191804,0.17.5.202002191804]
+
+!ENTRY org.eclipse.ui 2 2 2023-12-13 14:55:37.802
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
